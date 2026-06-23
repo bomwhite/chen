@@ -36,11 +36,11 @@ body{
 <script>
 const gallery = document.getElementById("gallery");
 
-for(let i = 1; i <= 115; i++){
+for(let i = 1; i <= 54; i++){
     const img = document.createElement("img");
 
-    // 文件名格式： (1).JPG
-    img.src = `(${i}).JPG`;
+    // 文件名格式： (1).jpg
+    img.src = `(${i}).jpg`;
 
     img.loading = "lazy";
     img.onerror = function(){
